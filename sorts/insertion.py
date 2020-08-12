@@ -16,5 +16,7 @@ for i, item in enumerate(trg_list[1:], 1):
       j += 1
       break
   trg_list[j] = item
-print("elapsed time: ", time.time() - start)
+
+elapsed = time.time() - start
 print("sorted: ", trg_list)
+print("elapsed time: ", elapsed)
